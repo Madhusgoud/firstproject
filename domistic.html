@@ -1,0 +1,676 @@
+<html>
+    <head>
+        <style>
+                *{
+                margin: 0px;
+            }
+            body{
+                width: 100%;
+                height: 100vh;
+                
+            }
+            .hding{
+                background-color: wheat;
+                width: 100%;
+                height: 6vh;
+                font-size: 9px;
+                text-align: center;
+                position: fixed;
+                 }
+                 .hding h1{
+                    margin-top: 7px;
+                 }
+            .nav{
+                width: 100%;
+                height:12vh ;
+                background-color:rgba(43, 107, 226, 1);
+                display: flex;
+                justify-content: space-between;
+                position: fixed;
+                
+
+            }
+            .nav img{
+                width: 60px;
+                height: 60px;
+                margin-top: 7px;
+                margin-left: 8px;
+            }
+            .img1{
+                display: flex;
+            }
+            .img1 h1{
+                margin-top: 17px;
+                margin-left: 10px;
+                font-style:bold;
+            }
+            .nav a {
+                text-decoration: none;
+                color: white;
+            }
+            .c1{
+                margin-top: 25px;
+                font-size: 22px;
+            }
+            .c2{
+                margin-top: 25px;
+                font-size: 22px;
+            }
+            .c3{
+                margin-top: 25px;
+                font-size: 22px;
+            }
+            .c4{
+                margin-top: 25px;
+                font-size: 22px;
+            }
+            .c5{
+                margin-top: 25px;
+                font-size: 22px;
+                margin-right: 9px;
+            }
+            a:hover {
+                font-size: 29px;
+                text-decoration: underline;
+                color: black;
+            }
+            .nav2{
+                width: 70%;
+                height: 7vh;
+                background-color: rgba(128, 128, 128, 0.607);
+                display: flex;
+                justify-content: space-around;
+                margin-left: 15%;
+                border-radius: 10px;
+                }
+            .nav2 p{
+                 margin-top: 2vh;
+                }
+                .nav2 a{
+                 margin-top: 2vh;
+                 text-decoration: none;
+                }
+              
+                
+                 
+                 .cat{
+                    width: 60%;
+                    height: 15vh;
+                    background-color: black;
+                    border-radius: 18px;
+                    margin-left: 20%;
+                    display: flex;
+                    justify-content: space-around;
+                 }
+                 .cat button{
+                    width: 30%;
+                    height:10vh ;
+                    margin-top: 2vh;
+                    border-radius: 10px;
+                 }
+                 .T20{
+                    width: 100%;
+                    height: 50vh;
+                   background-color:  rgba(128, 128, 128, 0.607);
+                    margin-top: 30px;
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: space-around;
+                 }
+                 .odi{
+                    width: 100%;
+                    height: 50vh;
+                    margin-top: 30px;
+                    background-color:  rgba(128, 128, 128, 0.607);
+                   border-radius: 10px;
+                    display: flex;
+                    justify-content: space-around;
+                 }
+                 .Test{
+                    width: 100%;
+                    height: 50vh;
+                    margin-top: 30px;
+                  background-color:  rgba(128, 128, 128, 0.607);
+                    border-radius: 10px;
+                    display: flex;
+                    justify-content: space-around;
+                 
+                 }
+                  .a{
+                    width: 20%;
+                    height: 40vh;
+                    background-color: white;
+                    margin-top: 25px;
+                    border-radius: 10px;
+                    
+                   }
+                   .b{
+                    width: 20%;
+                    height: 40vh;
+                    background-color: white;
+                    margin-top: 25px;
+                    border-radius: 10px;
+                    
+                   }
+                   .c{
+                    width: 20%;
+                    height: 40vh;
+                    background-color: white;
+                    margin-top: 25px;
+                    border-radius: 10px;
+                    
+                   }
+                   .d{
+                    width: 20%;
+                    height: 40vh;
+                    background-color: white;
+                    margin-top: 25px;
+                    border-radius: 10px;
+                    }
+                    .a h3{
+                        text-align: center;
+                    }
+                    .b h3{
+                        text-align: center;
+                    }
+                    .c h3{
+                        text-align: center;
+                    }
+                    .d h3{
+                        text-align: center;
+                    }
+                    .a img{
+                        width: 60px;
+                        height: 60px;
+                        margin-left: 30px;
+                        margin-top: 15px;
+                    }
+                    .b img{
+                        width: 60px;
+                        height: 60px;
+                        margin-left: 30px;
+                        margin-top: 15px;
+                    }
+                    .c img{
+                        width: 60px;
+                        height: 60px;
+                        margin-left: 30px;
+                        margin-top: 15px;
+                    }
+                    .d img{
+                        width: 60px;
+                        height: 60px;
+                        margin-left: 30px;
+                        margin-top: 15px;
+                    }
+                    hr{
+                        border: 1.5px solid black;
+                        width:80% ;
+                        margin-left: 10%;
+                    }
+                    .fix{
+                        width: 220px;
+                        height:45px ;
+                        background-color:  rgba(128, 128, 128, 0.607);
+                        margin-left: 30px;
+                        border-radius: 10px;
+                     }
+
+                    .fix h1{
+                        margin-left: 30px;
+                        color: white;
+                       
+                    }
+                    #i5{
+                        display: none;
+                     }
+                    #i6{
+                        display: none;
+                      }
+                #i1{
+                    background-color:  rgba(128, 128, 128, 0.607);
+                }
+                .mid7{
+                    width: 100%;
+                    height: 30vh;
+                    background-color:white;
+                    display: flex;
+                    justify-content: space-around;
+                    
+                }
+                .mid7 img{
+                    width: 100px;
+                    height: 70px;
+                    margin-top: 40px;
+                }
+            .m71 img{
+                    margin-left: 100px;
+                }
+             .m73 img{
+                    margin-right: 130px;
+                }
+            .mid7 p{
+                    margin-top: 30px;
+                }
+            .m71 p{
+                    margin-left: 90px;
+                }
+            .m72 img{
+                    margin-left: 30px;
+                }
+            .mid8{
+                    width: 100%;
+                    height: 20vh;
+                    background-color: white;
+                    display: flex;
+                    justify-content: center;
+                }
+            .mid8 img{
+                    width: 100px;
+                    height: 100px;
+                    margin-top: 20px;
+                    
+                }
+            .part p{
+                    text-align: center;
+                }
+            .i1 {
+                    margin-right: 30px;
+                }
+            .i2 {
+                    margin-right: 10px;
+                }
+            .i3 {
+                    margin-left: 10px;
+                }
+            .i4 {
+                    margin-left: 30px;
+                }
+            .i0 hr{
+                    border: 2px solid rgba(0, 0, 0, 0.285);
+                }
+            .ftr1{
+                    width: 100%;
+                    height: 40vh;
+                    background-color:  rgba(100, 162, 237, 0.205);
+                    display: flex;
+                    justify-content: space-around;
+                }
+            .ft11 img{
+                      width: 130px;
+                      height: 130px;
+                     margin-top: 50px;
+                     margin-left: 13px;
+                }
+            .ft11 h1{
+                    margin-left: 40px;
+                    margin-top: 10px;
+                }
+            .ft12{
+                    margin-top:60px ;
+                }
+            .ft13{
+                    margin-top: 60px;
+                }
+           .fb img{
+                    width: 60px;
+                    height: 60px;
+                    margin-top: 30px;
+                    border-radius: 20px;
+                    margin-left: 20px;
+                }
+            .ft13 h1{
+                    margin-left: 20px;
+                }
+                
+            .ftr2{
+                    width: 100%;
+                    height: 10vh;
+                    background-color:  rgba(100, 162, 237, 0.205);
+                    display: flex;
+                    justify-content: space-around;
+                }
+            .ftr2 p{
+                    margin-top: 18px;
+                }
+               
+               
+                
+              
+            
+        </style>
+    </head>
+    <body class="over all">
+        <div class="hding">
+            <h1>THE BOARD OF CONTROL FOR CRICKET IN INDIA</h1>
+        </div>
+           <br>
+           <br>
+        <div class="nav">
+            <div class="img1">
+            <img src="https://th.bing.com/th/id/R.be6220cf506c6aea3fa602e60372a8b1?rik=bRN6JVLx1oP0%2bg&riu=http%3a%2f%2f2.bp.blogspot.com%2f-fYj9vefEAZs%2fT8sALfRN2vI%2fAAAAAAAAAU4%2f3q9znTy5J2o%2fs1600%2findia-cricket-logo.png&ehk=Rstladh6y%2fvdaC1ll1r0j3HwNmWW2%2fwqF8Lbc6xqF7c%3d&risl=&pid=ImgRaw&r=0">
+            <h1>BCCI</h1>
+            </div>
+            
+             <div class="c1">  <a href="./index.html">HOME</a></div>
+             <div class="c2">   <a href="./internat.html">INTERNATIONAL</a></div>
+             <div class="c3">  <a href="./domistic.html">DOMISTIC</a></div>
+             <div class="c4">  <a href="./players.html">PLAYERS</a></div>
+             <div class="c5">  <a href="./news.html">NEWS</a></div>
+             <div class="c5"> <a href="./more.html">MORE</a></div>
+        </div>
+             <br>
+             <br>
+             <br>
+             <br>
+             
+        <div class="nav2">
+            <p>LIVESCORE TODAY</p>
+            <a href="https://www.cricbuzz.com/">All Matchs</a>
+        </div>
+        <!--cen 1 -->
+   
+            <br>
+       <div class="fix"> <h1>FIXTURES</h1></div>
+            <br>
+            <div class="cat">
+                <button onclick="fun()" id="i1">VIZZY TROPHY</button>
+                <button onclick="fun1()" id="i2">MUSTAFALI TROPHY</button>
+                <button onclick="fun2()" id="i3"> DULEEP TROPHY</button>
+            </div>
+            <!--t20 -->
+            <div id="i4" class="T20">
+                <div class="a">
+                    <br>
+                    <h3>VIZZY TROPHY 2023</h3>
+                    <h3>1st MATCH</h1>
+                    <h3>27-jan-2023</h2>
+                        <hr>
+                    <img src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/313300/313305.logo.png" alt="">
+                    <img src="https://a2.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fcricket%2F500%2F1872.png" alt="">
+                    <br>
+                    <hr>
+                    <h3>JSCA International Stadium Complex</h3>
+                    <h3>Ranchi</h3>
+                   
+                </div>
+                <div class="b">
+                    <br>
+                    <h3>VIZZY TROPHY 2023</h3>
+                    <h3>2st MATCH</h1>
+                    <h3>29-jan-2023</h2>
+                        <hr>
+                    <img src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/313300/313318.logo.png" alt="">
+                    <img src="https://th.bing.com/th/id/R.1869ce505a661b077863da64c02e2622?rik=OrCe4x9Qe%2fXw4g&riu=http%3a%2f%2fa.espncdn.com%2fi%2fteamlogos%2fcricket%2f500%2f1905.png&ehk=JFPGQ%2ffcmBS7emVOHejlKkXbtpGOFsSX6KKTwOJb%2fAI%3d&risl=&pid=ImgRaw&r=0" alt="">
+                    <br>
+                    <hr>
+                    <h3> Narendra Modi Stadium</h3>
+                    <h3>Ahmedabad</h3>
+            
+                </div>
+                <div class="c">
+                    <br>
+                    <h3>VIZZY TROPHY 2023</h3>
+                    <h3>3rd MATCH</h1>
+                    <h3>31-jan-2023</h2>
+                        <hr>
+                    <img src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/313200/313296.logo.png" alt="">
+                    <img src="https://th.bing.com/th/id/R.76c832a442a6269e485c2042e2633dec?rik=I9Lg4ee5dGuunw&riu=http%3a%2f%2fwww.saucricket.com%2fImages%2flogo-h111.png&ehk=QNss19IK%2b0ppENYiIdJGOAfemhwD1lycUcXaOhpanJA%3d&risl=&pid=ImgRaw&r=0" alt="">
+                    <br>
+                    <hr>
+                    <h3>Wankhede Stadium</h3>
+                    <h3>Mumbai</h3>
+                </div>
+                <div class="d">
+                    <br>
+                    <h3>VIZZY TROPHY 2023</h3>
+                    <h3>4th MATCH</h1>
+                    <h3>2-feb-2023</h2>
+                        <hr>
+                    <img src="https://a2.espncdn.com/combiner/i?img=%2Fi%2Fteamlogos%2Fcricket%2F500%2F1872.png" alt="">
+                    <img src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/313300/313318.logo.png" alt="">
+                    <br>
+                    <hr>
+                    <h3>Arun Jaitley Stadium</h3>
+                    <h3>Delhi</h3>
+                </div>
+            </div>
+            <!--t20 end-->
+            <!--odi start-->
+            <div id="i5" class="odi">
+                <div class="a">
+                    <br>
+                    <h3>MUSTAFALI TROPHY 2023</h3>
+                    <h3>1st MATCH</h1>
+                    <h3>4-feb-2023</h2>
+                        <hr>
+                    <img src="https://th.bing.com/th/id/OIP.TS14fMd4XylrsQPtpr3b1QHaHa?pid=ImgDet&rs=1" alt="">
+                    <img src="https://www.indianetzone.com/photos_gallery/52/Madhya_Pradesh_Cricket_Association.jpg" alt="">
+                    <br>
+                    <hr>
+                    <h3>JSCA International Stadium Complex</h3>
+                    <h3>Ranchi</h3>
+                   
+                </div>
+                <div class="b">
+                    <br>
+                    <h3>MUSTAFALI TROPHY 2023</h3>
+                    <h3>2st MATCH</h1>
+                    <h3>7-feb-2023</h2>
+                        <hr>
+                    <img src="https://images.hindustantimes.com/rf/image_size_800x600/HT/p1/2015/06/06/Incoming/Pictures/1355621_Wallpaper2.jpg" alt="">
+                    <img src="https://th.bing.com/th/id/R.2e9250493054a4ed751df395a8f9cb50?rik=DW7GnNe1CROu4Q&riu=http%3a%2f%2fassets.stickpng.com%2fthumbs%2f627d056f8a632ca996477e75.png&ehk=uTvz%2baktJZMaAERBk5ZYvab3MStzJXsgxJUNh%2bjB5N0%3d&risl=&pid=ImgRaw&r=0" alt="">
+                    <br>
+                    <hr>
+                    <h3> Narendra Modi Stadium</h3>
+                    <h3>Ahmedabad</h3>
+            
+                </div>
+                <div class="c">
+                    <br>
+                    <h3>MUSTAFALI TROPHY 2023</h3>
+                    <h3>3rd MATCH</h1>
+                    <h3>10-feb-2023</h2>
+                        <hr>
+                    <img src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/313200/313296.logo.png" alt="">
+                    <img src="https://th.bing.com/th/id/OIP.TS14fMd4XylrsQPtpr3b1QHaHa?pid=ImgDet&rs=1" alt="">
+                    <br>
+                    <hr>
+                    <h3>Wankhede Stadium</h3>
+                    <h3>Mumbai</h3>
+                </div>
+                <div class="d">
+                    <br>
+                    <h3>MUSTAFALI TROPHY 2023</h3>
+                    <h3>4th MATCH</h1>
+                    <h3>12-feb-2023</h2>
+                        <hr>
+                    <img src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/313300/313305.logo.png" alt="">
+                    <img src="https://www.indianetzone.com/photos_gallery/52/Madhya_Pradesh_Cricket_Association.jpg" alt="">
+                    <br>
+                    <hr>
+                    <h3>Arun Jaitley Stadium</h3>
+                    <h3>Delhi</h3>
+                </div>
+            </div>
+            <!--odi end-->
+            <!--test-->
+            <div id="i6" class="odi">
+                <div class="a">
+                    <br>
+                    <h3>DULEEP TROPHY 2023</h3>
+                    <h3>1st TEST</h1>
+                    <h3>16-feb-2023</h2>
+                        <hr>
+                    <img src="https://th.bing.com/th/id/OIP.TS14fMd4XylrsQPtpr3b1QHaHa?pid=ImgDet&rs=1" alt="">
+                    <img src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/313300/313305.logo.png" alt="">
+                    <br>
+                    <hr>
+                    <h3>JSCA International Stadium Complex</h3>
+                    <h3>Ranchi</h3>
+                   
+                </div>
+                <div class="b">
+                    <br>
+                    <h3>DULEEP TROPHY 2023</h3>
+                    <h3>2st TEST</h1>
+                    <h3>24-feb-2023</h2>
+                        <hr>
+                    <img src="https://th.bing.com/th/id/R.2e9250493054a4ed751df395a8f9cb50?rik=DW7GnNe1CROu4Q&riu=http%3a%2f%2fassets.stickpng.com%2fthumbs%2f627d056f8a632ca996477e75.png&ehk=uTvz%2baktJZMaAERBk5ZYvab3MStzJXsgxJUNh%2bjB5N0%3d&risl=&pid=ImgRaw&r=0" alt="">
+                    <img src="https://img1.hscicdn.com/image/upload/f_auto/lsci/db/PICTURES/CMS/317300/317355.png" alt="">
+                    <br>
+                    <hr>
+                    <h3> Narendra Modi Stadium</h3>
+                    <h3>Ahmedabad</h3>
+            
+                </div>
+                <div class="c">
+                    <br>
+                    <h3>DULEEP TROPHY 2023</h3>
+                    <h3>3rd TEST</h1>
+                    <h3>2-mar-2023</h2>
+                        <hr>
+                    <img src="https://is5-ssl.mzstatic.com/image/thumb/Purple123/v4/52/fc/df/52fcdfce-ca11-d5c8-c4eb-dd918027926b/source/512x512bb.jpg" alt="">
+                    <img src="https://www.biharcricketassociation.in/img/logo/jamui_dca.jpeg" alt="">
+                    <br>
+                    <hr>
+                    <h3>Wankhede Stadium</h3>
+                    <h3>Mumbai</h3>
+                </div>
+                <div class="d">
+                    <br>
+                    <h3>DULEEP TROPHY 2023</h3>
+                    <h3>4th TEST</h1>
+                    <h3>9-mar-2023</h2>
+                        <hr>
+                    <img src="https://www.indianetzone.com/photos_gallery/52/Madhya_Pradesh_Cricket_Association.jpg" alt="">
+                    <img src="https://th.bing.com/th/id/OIP.TS14fMd4XylrsQPtpr3b1QHaHa?pid=ImgDet&rs=1" alt="">
+                    <br>
+                    <hr>
+                    <h3>Arun Jaitley Stadium</h3>
+                    <h3>Delhi</h3>
+                </div>
+            </div>
+            <script>
+                function fun(){
+                    let x=document.getElementById("i1")
+                    x.style.backgroundColor=" rgba(128, 128, 128, 0.607)"
+                    let y=document.getElementById("i2")
+                    y.style.backgroundColor="white"
+                    let z=document.getElementById("i3")
+                    z.style.backgroundColor="white"
+                    let a=document.getElementById("i4")
+                    a.style.display="flex"
+                    let b=document.getElementById("i5")
+                    b.style.display="none"
+                    let c=document.getElementById("i6")
+                    c.style.display="none"
+        
+        
+                }
+                function fun1(){
+                    let e=document.getElementById("i2")
+                    e.style.backgroundColor=" rgba(128, 128, 128, 0.607)"
+                    let f=document.getElementById("i1")
+                    f.style.backgroundColor="white"
+                    let g=document.getElementById("i3")
+                    g.style.backgroundColor="white"
+                    let h=document.getElementById("i5")
+                    h.style.display="flex"
+                    let i=document.getElementById("i4")
+                    i.style.display="none"
+                    let j=document.getElementById("i6")
+                    j.style.display="none"
+        
+        
+                }
+                function fun2(){
+                    let k=document.getElementById("i3")
+                    k.style.backgroundColor=" rgba(128, 128, 128, 0.607)"
+                    let l=document.getElementById("i2")
+                    l.style.backgroundColor="white"
+                    let m=document.getElementById("i1")
+                    m.style.backgroundColor="white"
+                    let n=document.getElementById("i6")
+                    n.style.display="flex"
+                    let o=document.getElementById("i5")
+                    o.style.display="none"
+                    let p=document.getElementById("i4")
+                    p.style.display="none"
+        
+        
+                }
+               </script>
+                <!--mid 7-->
+        <div class="mid7">
+            <div class="m71">
+                
+                <img src="https://everipedia-storage.s3.amazonaws.com/ProfilePicture/en/Byju_Raveendran__b7ecb8/BYJU%2527S_logo.png__95703.png">
+                <p>TEAM SPONSER</p>
+            </div>
+            <div class="m72">
+               
+                <img src="https://www.exchange4media.com/news-photo/1505128343_A2UqKm_70420.jpg">
+                <p>OFFICAL BORDCASTER</p>
+            </div>
+            <div class="m73">
+               
+                <img src="https://th.bing.com/th/id/OIP.CSv0D_Pv2hzbhGo6UWoLAgHaHa?pid=ImgDet&rs=1">
+                <p>TITLE SPONSER</p>
+            </div>
+
+           </div>
+            <!--mid 7 end-->
+            <!--mid 8 -->
+            <div class="i0"><hr></div>
+            <br>
+            <div class="part"><p>OFFICAL PARTNERS</p></div>
+            <div class="mid8">
+                <img class="i1" src="https://th.bing.com/th/id/OIP.qNp5MBbjHW08UxNT0lo15gHaCX?pid=ImgDet&rs=1" >
+                <img class="i2" src="https://th.bing.com/th/id/R.699bd8d4a40fdbc9a81bc0ebfa1d8a05?rik=Joir5awCT7ppIw&riu=http%3a%2f%2fwww.carlogos.org%2flogo%2fHyundai-logo-grey-2560x1440.png&ehk=onVKzqm9UXS7CMytoYSUZOhWde%2fAwo0MIBSVNKFfXAs%3d&risl=&pid=ImgRaw&r=0" >
+                <img class="i3" src="https://indiancompanies.in/wp-content/uploads/2020/07/ambuja-cement-logo-2048x1217.png" >
+                <img class="i4" src="https://th.bing.com/th/id/R.2b331617d2aa68a82ad126f128f1ab31?rik=61UttXVlZDCb4g&riu=http%3a%2f%2fwww.pngimagesfree.com%2fLOGO%2fK%2fKiller-Jeans%2fKiller-Jeans-Logo-PNG.png&ehk=72uA8WHrDCkUqmXexQn4q92HQcKIkITGNsRrzbXwPAU%3d&risl=&pid=ImgRaw&r=0" >
+
+            </div>
+            <!--mid 8 end-->
+            <br>
+            <br>
+            <!--ftr 1-->
+            <div class="ftr1">
+                <div class="ft11">
+                    <img src="https://th.bing.com/th/id/R.be6220cf506c6aea3fa602e60372a8b1?rik=bRN6JVLx1oP0%2bg&riu=http%3a%2f%2f2.bp.blogspot.com%2f-fYj9vefEAZs%2fT8sALfRN2vI%2fAAAAAAAAAU4%2f3q9znTy5J2o%2fs1600%2findia-cricket-logo.png&ehk=Rstladh6y%2fvdaC1ll1r0j3HwNmWW2%2fwqF8Lbc6xqF7c%3d&risl=&pid=ImgRaw&r=0">
+                     <h1>BCCI</h1>
+                 </div>
+                 <div class="ft12">
+                    <h1>CONTACT US :</h1>
+                    <br>
+                    <P>4th Floor,Cricket Center</P>
+                    <p>Wankhede Stadium</p>
+                   <p>'D' Road, Churchgate </p>
+                   <p>Mumbai - 400020</p>
+                   <p>India.</p>
+                   <p>E-mail:offic@bcci.tv</p>
+                </div>
+                <div class="ft13">
+                    <h1>Follow #BCCI</h1>
+                    <div class="fb">
+                        <a href="https://www.facebook.com/IndianCricketTeam/"><img src="https://www.reviewsxp.com/blog/wp-content/uploads/2019/09/facebook-350x350.png"></a>
+                        <a href="https://www.instagram.com/indiancricketteam/"><img src="https://e7.pngegg.com/pngimages/441/328/png-clipart-logo-icone-instagram-facebook-purple-violet-thumbnail.png"></a>
+                        <a href="https://twitter.com/BCCI"><img src="https://cdn.pulse2.com/cdn/2021/04/Twitter-Logo.jpeg"></a>
+                    </div>
+                </div>
+               </div>
+             <!--ftr 1 end-->
+            <!--ftr 2-->
+            <div class="ftr2">
+                <p>T +91 22 - 2289 8800F 022 - 2289 8801</p>
+                <p>Copyrights BCCI 2021 , All Rights Reserved.</p>
+                <p>Terms and Condition</p>
+                <p>Privacy Policy</p>
+            </div>
+            <!--ftr 2 end-->
+            <br>
+            <br>
+                
+            </body>
+            </html>
